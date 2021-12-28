@@ -1,0 +1,10 @@
+{
+  "name": "DSLib",
+  "version": "1.0.0",
+  "description": "Commonly used data structures library for JS",
+  "main": "index.js",
+  "repository": "https://github.com/nishantatgit/DSLib",
+  "author": "Nishant Kumar <nishant.kumar.shreevastav@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
