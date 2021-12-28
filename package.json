@@ -1,10 +1,25 @@
 {
-  "name": "DSLib",
+  "name": "dslib",
   "version": "1.0.0",
   "description": "Commonly used data structures library for JS",
   "main": "index.js",
   "repository": "https://github.com/nishantatgit/DSLib",
   "author": "Nishant Kumar <nishant.kumar.shreevastav@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-jest": "^27.4.5",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.4.5",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  }
 }
